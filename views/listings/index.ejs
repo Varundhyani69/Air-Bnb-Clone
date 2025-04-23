@@ -10,9 +10,14 @@
                         <p class="card-text">
                             <b><%= listing.title %></b>
                             <br>
-                            &#8377;<%= listing.price.toLocaleString("en-IN") %> / Night
+                            <% if (listing.price != null) { %>
+                                &#8377;<%= listing.price.toLocaleString("en-IN") %> / Night
+                            <% } else { %>
+                                Price not available
+                            <% } %>
+                            
                         </p>
-                        <span class="btn btn-primary">Show More</span>
+                        
                     </div>
                 </a>
             </div>

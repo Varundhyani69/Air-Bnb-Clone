@@ -5,30 +5,30 @@
         <form method="POST" action="/listings/<%=listing._id%>?_method=put">
             <div class="mb-3">
                 <label for="title" class="form-label">Title</label>
-                <input class="form-control" name="listing[title]" type="text" value="<%=listing.title%>">
+                <input required class="form-control" name="listing[title]" type="text" value="<%=listing.title%>">
             </div>
             <div class="mb-3">
                 <label for="description">Description</label>
-                <textarea class="form-control" name="listing[description]"><%=listing.description%></textarea>
+                <textarea required class="form-control" name="listing[description]"><%=listing.description%></textarea>
             </div>
             <div class="mb-3">
                 <label for="image">Image</label>
-                <input class="form-control" name="listing[image][url]" type="text" value="<%=listing.image.url%>">
+                <input required class="form-control" name="listing[image][url]" type="text" value="<%=listing.image.url%>">
             </div>
             <div class="row">
                 <div class="mb-3 col-md-4">
                     <label for="price">Price</label>
-                    <input class="form-control" name="listing[price]" type="number" value="<%=listing.price%>">
+                    <input required class="form-control" name="listing[price]" type="number" value="<%=listing.price%>">
                 </div>
                 <div class="mb-3 col-md-8">
                     <label for="country">Country</label>
-                    <input class="form-control" name="listing[country]" type="text" value="<%=listing.country%>">
+                    <input required class="form-control" name="listing[country]" type="text" value="<%=listing.country%>">
                 </div>
             </div>
             
             <div class="mb-3">
                 <label for="location">Location</label>
-                <input class="form-control" name="listing[location]" type="text" value="<%=listing.location%>">
+                <input required class="form-control" name="listing[location]" type="text" value="<%=listing.location%>">
             </div>
             <button class="btn btn-dark mt-3">Edit</button>
         </form>
