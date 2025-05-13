@@ -1,4 +1,9 @@
-Day 1: Basic Setup
+Commit 1st: Basic Setup
     required basic things like mongoose and express
     connected database with app.js using main function
     created a root path
+Commit 2nd: Model
+    Created a Listing Model
+    imported it in app.js
+    created a sample listing to check if database is working
+    
