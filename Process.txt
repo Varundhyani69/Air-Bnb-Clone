@@ -1,0 +1,4 @@
+Day 1: Basic Setup
+    required basic things like mongoose and express
+    connected database with app.js using main function
+    created a root path
