@@ -1,9 +1,16 @@
-Commit 1st: Basic Setup
+Commit 1: Basic Setup
     required basic things like mongoose and express
     connected database with app.js using main function
     created a root path
-Commit 2nd: Model
+Commit 2: Model
     Created a Listing Model
     imported it in app.js
     created a sample listing to check if database is working
-    
+Commit 3: Sample database initalization
+    created a view folder and index.ejs for showing all listings
+Commit 4: Crud Operations
+    All Listings
+    Show listings
+    New Listing then Create Listing 
+    Edit Listing then Update Listing
+    Delete Listing
