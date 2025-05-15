@@ -14,3 +14,8 @@ Commit 4: Crud Operations
     New Listing then Create Listing 
     Edit Listing then Update Listing
     Delete Listing
+Commit 5: BoilerPlate
+    Created a BoilerPlate
+    Created a Navbar
+    Did basic styling
+    Then styled all pages
