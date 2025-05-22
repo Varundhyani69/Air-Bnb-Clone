@@ -22,3 +22,9 @@ Commit 5: BoilerPlate and Styling
 Commit 6: Form Validation
     Client-Side Validations
     Error Handling
+Commit 7: Reviews
+    Review form creation
+    Post request for review
+    Validations for review
+    Delete review
+    Delete review object id's when listing is deleted
