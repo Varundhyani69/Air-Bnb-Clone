@@ -28,3 +28,6 @@ Commit 7: Reviews
     Validations for review
     Delete review
     Delete review object id's when listing is deleted
+Commit 7: Express Routes
+    Created a route folder for express routing
+    reviews.js listings.js
