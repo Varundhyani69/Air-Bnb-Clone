@@ -31,3 +31,6 @@ Commit 7: Reviews
 Commit 7: Express Routes
     Created a route folder for express routing
     reviews.js listings.js
+Commit 8: Sessions, flash
+    created Sessions
+    created flash for views
