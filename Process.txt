@@ -34,3 +34,8 @@ Commit 7: Express Routes
 Commit 8: Sessions, flash
     created Sessions
     created flash for views
+Commit 9: Authorization and Authentication
+    Created and Implemented user model using passport plugin
+    made an signup page
+    made an login page
+    created ownership for listings and reviews
