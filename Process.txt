@@ -39,3 +39,8 @@ Commit 9: Authorization and Authentication
     made an signup page
     made an login page
     created ownership for listings and reviews
+Commit 9: Other stuff
+    Implemented MVC model
+    fixed rating
+    Changed Image url to actual uplaod using cloudinary
+    Added filter listing and tax switch
